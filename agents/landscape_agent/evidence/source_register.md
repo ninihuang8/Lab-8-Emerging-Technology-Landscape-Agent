@@ -1,0 +1,83 @@
+# Dated evidence and claim register
+
+Verified 2026-11-10 America/New_York. Bounded research, not exhaustive market surveillance.
+
+## S1: Yao et al., tau-bench
+- url: https://arxiv.org/abs/2406.12045
+- publication_or_update: 2024-06-17
+- source_type: Research benchmark; authors include an agent vendor
+- supported_claim: Historical tool-use evaluation illustrates repeatability issues.
+- limitations: 2024 results do not measure 2026 models or fab scheduling.
+- claim_status: verified historical; inference for test design
+- staleness_risk: High for current ranking; low for historical method
+- verified_date: 2026-11-10 America/New_York
+
+## S2: Rabanser et al., Towards a Science of AI Agent Reliability v3
+- url: https://arxiv.org/abs/2602.16666v3
+- publication_or_update: 2026-02-18 initial; 2026-06-02 v3
+- source_type: Research paper; ICML acceptance noted on arXiv
+- supported_claim: Reliability should be evaluated separately from average task success.
+- limitations: Two benchmark environments do not establish reliability of a fab installation.
+- claim_status: verified research finding; contextual implication inferred
+- staleness_risk: High for model rankings; moderate for evaluation framing
+- verified_date: 2026-11-10 America/New_York
+
+## S3: Adamson et al., Deploying an Advanced AI Diffusion Scheduler at a Renesas Fab
+- url: https://informs-sim.org/wsc23papers/cea137.pdf
+- publication_or_update: 2023 proceedings; exact paper publication day not established
+- source_type: Industrial conference case; vendor/customer coauthored
+- supported_claim: The Renesas case reports mathematical programming and heuristics with MES-linked data; batching gains accompanied a slight cycle-time increase.
+- limitations: Two-month before/after comparison in one diffusion area; vendor/customer report, not independent replication, LLM-agent evidence or fab-wide ROI.
+- claim_status: verified reported deployment; no local effect estimate
+- staleness_risk: Moderate: historical deployment survives; current product performance needs refresh
+- verified_date: 2026-11-10 America/New_York
+
+## S4: Anthropic, Building effective agents
+- url: https://www.anthropic.com/research/building-effective-agents
+- publication_or_update: 2024-12-19; page now warns tooling has changed
+- source_type: Vendor engineering guidance
+- supported_claim: Defines workflows versus agents and recommends simpler designs when adequate.
+- limitations: Interested vendor, not independent performance evidence; old tooling advice is explicitly stale.
+- claim_status: verified vendor guidance; not deployment proof
+- staleness_risk: High for tooling and cost assertions
+- verified_date: 2026-11-10 America/New_York
+
+## S5: NIST AI 600-1, Generative AI Profile
+- url: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+- publication_or_update: 2024-07-26; page updated 2026-04-08
+- source_type: Government voluntary risk guidance
+- supported_claim: Provides cross-sector generative-AI risk-management guidance.
+- limitations: Not a fab certification, legal mandate, or operational readiness assessment.
+- claim_status: verified guidance; control selection is an inference
+- staleness_risk: Moderate; legal applicability requires jurisdiction and separate review
+- verified_date: 2026-11-10 America/New_York
+
+## S6: SEMI E30 public catalog and abstract
+- url: https://store-us.semi.org/products/e03000-semi-e30-specification-for-the-generic-model-for-communications-and-control-of-manufacturing-equipment-gem
+- publication_or_update: Catalog lists E30-0526 current; exact release day unavailable
+- source_type: Standards publisher; public abstract only
+- supported_claim: GEM concerns equipment behavior and communications; interface compatibility deserves review.
+- limitations: Full licensed standard not inspected; catalog listing does not prove site compliance or authorize AI actions.
+- claim_status: verified catalog scope; implementation status unknown
+- staleness_risk: High for revision status; recheck before interface design
+- verified_date: 2026-11-10 America/New_York
+
+## S7: SEMICON West supply-chain session listing
+- url: https://semiconwest2026.eventscribe.net/fsPopup.asp?PresentationID=1892564&mode=presInfo
+- publication_or_update: Event 2026-10-14; listing publication date unavailable
+- source_type: Practitioner/consulting conference abstract
+- supported_claim: Agentic AI is being presented as a semiconductor supply-chain opportunity.
+- limitations: Agenda publicity is not an audited deployment; search excerpt and opened listing differ in wording. Use only opened source scope.
+- claim_status: verified market-interest signal; operational claims unsupported here
+- staleness_risk: High; dynamic listing and hype-sensitive terms
+- verified_date: 2026-11-10 America/New_York
+
+## Inference, hypothetical assumptions and unsupported claims
+I1: A hybrid advisory comparison against existing APS is a proposed experiment, not proven benefit.
+I2: Retrieval/workflow automation is a simpler comparator for IT drafts; local value is unmeasured.
+H1: All organization facts in intake are hypothetical; staffing, fallback and data quality are not observed.
+U1: Current quotes, local ROI, vendor concentration/market shares, jurisdiction and current comparable fab-agent reliability are not established. No numerical savings claim is authorized.
+U2: No comparable deployment verified here is not equivalent to none existing.
+
+## Retrieval discrepancy
+The SEMICON search excerpt used stronger deployment wording than the opened listing. The opened listing is used only as a market-interest signal; neither wording supplies deployment logs.

@@ -1,0 +1,62 @@
+{
+  "verification_date": "2026-11-10 America/New_York",
+  "method": "Python instructor validator plus jsonschema Draft202012Validator; same-session qualitative review is separate",
+  "cases": "3 valid inputs; 4 model responses (v0.1 primary plus v0.2 primary and two contrasts)",
+  "results": [
+    {
+      "run": "v01_primary",
+      "instructor_validator": {
+        "exit_code": 0,
+        "stdout": "VALIDATION PASSED",
+        "stderr": ""
+      },
+      "strict_schema_errors": [],
+      "sha256": "ede85dc81c5c70d885eba1818170ca57f368f55685b47946dfc4de4b53e67c50"
+    },
+    {
+      "run": "primary",
+      "instructor_validator": {
+        "exit_code": 0,
+        "stdout": "VALIDATION PASSED",
+        "stderr": ""
+      },
+      "strict_schema_errors": [],
+      "sha256": "1e0a2196cba5af46a70b5c99f2be683f999e3dbb43939557fdb6502239ae42f7"
+    },
+    {
+      "run": "contrast_1",
+      "instructor_validator": {
+        "exit_code": 0,
+        "stdout": "VALIDATION PASSED",
+        "stderr": ""
+      },
+      "strict_schema_errors": [],
+      "sha256": "b8c4a4e8a4cedeacb2b4da4761baa51445cc179726c3ca74a1441278356c20a4"
+    },
+    {
+      "run": "contrast_2",
+      "instructor_validator": {
+        "exit_code": 0,
+        "stdout": "VALIDATION PASSED",
+        "stderr": ""
+      },
+      "strict_schema_errors": [],
+      "sha256": "62268ad435d6e53f0b06f2def8db38b6ab03c3428c9de7fa34263fad0f967b4c"
+    }
+  ],
+  "negative_control": {
+    "origin": "Constructed validator diagnostic, NOT a model output or model execution",
+    "instructor_accepts_extra_property": true,
+    "strict_rejects_extra_property": true,
+    "errors": [
+      "Additional properties are not allowed ('unrequested_field' was unexpected)"
+    ]
+  },
+  "general_finding_stability": "PASS exact text equality; appropriateness requires qualitative review",
+  "context_distinction": "PASS different strings; meaning assessed separately",
+  "frozen_core": {
+    "exit_code": 0,
+    "stdout": "FROZEN CORE INTACT",
+    "stderr": ""
+  }
+}

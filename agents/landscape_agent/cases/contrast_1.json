@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI",
+  "intended_application": "Internal IT service-desk ticket triage and draft resolution",
+  "organization": "Hypothetical mid-sized professional-services firm",
+  "industry_sector": "Professional services",
+  "business_need": "Reduce analyst time on repetitive internal support requests",
+  "users_stakeholders": "IT analysts, employees, security and knowledge-base owners",
+  "adoption_posture": "Moderate / fast-follower",
+  "capabilities_constraints": "Hypothetical: approved knowledge base and ticket system, limited integration staff; drafts only; no password resets, account changes or autonomous messages",
+  "risk_consequence_context": "Incorrect drafts and disclosure of employee or client information; drafts are reversible before analyst approval",
+  "management_question": "Should a six-month drafts-only pilot use agents or simpler retrieval and workflow automation?",
+  "time_horizon": "2026-11-10 through 2027-05-10; six months",
+  "additional_context": "Assessment as of 2026-11-10 America/New_York. All organization details are hypothetical. Use the dated evidence register as bounded research; do not treat missing evidence as proof of absence."
+}

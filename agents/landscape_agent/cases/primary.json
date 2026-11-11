@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI",
+  "intended_application": "Semiconductor wafer-fabrication production scheduling and disruption recovery",
+  "organization": "Hypothetical advanced semiconductor manufacturer",
+  "industry_sector": "Advanced semiconductor manufacturing",
+  "business_need": "Determine whether agentic recommendations add value over incumbent scheduling during disruptions",
+  "users_stakeholders": "Production planners, shift supervisors, process engineers, MES owners, security and management",
+  "adoption_posture": "Moderate / fast-follower",
+  "capabilities_constraints": "Hypothetical: existing MES and APS; authorized humans approve all production schedule changes; six-month bounded pilot; actual data quality, budget, staffing and fallback performance unknown",
+  "risk_consequence_context": "Infeasible schedules may violate process windows, disrupt downstream capacity or damage work in progress; advisory system has no production write authority",
+  "management_question": "Where does Agentic AI stand relative to credible scheduling alternatives, and what external evidence should change pilot or investment decisions?",
+  "time_horizon": "2026-11-10 through 2027-05-10; six months",
+  "additional_context": "Assessment as of 2026-11-10 America/New_York. All organization details are hypothetical. Use the dated evidence register as bounded research; do not treat missing evidence as proof of absence."
+}

@@ -1,0 +1,49 @@
+{
+  "assessment_date": "2026-11-10 America/New_York",
+  "environment": "Active ChatGPT/Codex Work session; model outputs authored in-session after reading prompt packets and saved as literal JSON. No external API, separate model worker or independent human run.",
+  "runs": [
+    {
+      "run": "v01_primary",
+      "version": "0.1-student",
+      "prompt_path": "work/v01_primary_prompt.txt",
+      "prompt_sha256": "6c2ac409b15e69a4ab21b7192812daf0450d0345d5b537a77863b917f4651b74",
+      "response_path": "agents/landscape_agent/responses/v01_primary_response.json",
+      "response_sha256": "ede85dc81c5c70d885eba1818170ca57f368f55685b47946dfc4de4b53e67c50",
+      "origin": "Actual active-session model-generated response, not a programmatic model call",
+      "case": "primary"
+    },
+    {
+      "run": "primary",
+      "version": "0.2-student",
+      "prompt_path": "work/landscape_agent_primary_prompt.txt",
+      "prompt_sha256": "d3b75feebc20925205675eb7c6b0ef87a5c42306076eb6386395489c64c4e3a1",
+      "response_path": "agents/landscape_agent/responses/primary_response.json",
+      "response_sha256": "1e0a2196cba5af46a70b5c99f2be683f999e3dbb43939557fdb6502239ae42f7",
+      "origin": "Actual active-session model-generated response, not a programmatic model call",
+      "case": "primary"
+    },
+    {
+      "run": "contrast_1",
+      "version": "0.2-student",
+      "prompt_path": "work/landscape_agent_contrast_1_prompt.txt",
+      "prompt_sha256": "27c98d4850a33ee0d59943224c829529c3437c0f8b18c7b0987c77a799d78622",
+      "response_path": "agents/landscape_agent/responses/contrast_1_response.json",
+      "response_sha256": "b8c4a4e8a4cedeacb2b4da4761baa51445cc179726c3ca74a1441278356c20a4",
+      "origin": "Actual active-session model-generated response, not a programmatic model call",
+      "case": "contrast_1"
+    },
+    {
+      "run": "contrast_2",
+      "version": "0.2-student",
+      "prompt_path": "work/landscape_agent_contrast_2_prompt.txt",
+      "prompt_sha256": "050cabe74d14585eaac4ccddd659ca88fe88cfd91dc6727de9e106dcee750ad9",
+      "response_path": "agents/landscape_agent/responses/contrast_2_response.json",
+      "response_sha256": "62268ad435d6e53f0b06f2def8db38b6ab03c3428c9de7fa34263fad0f967b4c",
+      "origin": "Actual active-session model-generated response, not a programmatic model call",
+      "case": "contrast_2"
+    }
+  ],
+  "case_mutation_policy": "Cases unchanged between v0.1 diagnosis and v0.2 testing.",
+  "automated_checks": "Instructor validator, jsonschema Draft202012, frozen-core hash checker",
+  "qualitative_review": "Same-session AI review, with explicit limitations in quality_review.md"
+}

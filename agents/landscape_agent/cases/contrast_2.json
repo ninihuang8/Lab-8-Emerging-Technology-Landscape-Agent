@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Agentic AI",
+  "intended_application": "Semiconductor wafer-fabrication production scheduling and disruption recovery",
+  "organization": "Hypothetical cash-constrained legacy semiconductor fab",
+  "industry_sector": "Advanced semiconductor manufacturing",
+  "business_need": "Management faces pressure to replace dispatch rules after a vendor presentation",
+  "users_stakeholders": "Production planners, shift supervisors, process engineers, MES owners, security and management",
+  "adoption_posture": "Conservative / risk-averse",
+  "capabilities_constraints": "Hypothetical: incomplete MES event history, no validated simulator, limited integration staff; vendor slide and competitor announcement only; production changes still require human approval",
+  "risk_consequence_context": "Infeasible schedules may violate process windows, disrupt downstream capacity or damage work in progress; advisory system has no production write authority",
+  "management_question": "Where does Agentic AI stand relative to credible scheduling alternatives, and what external evidence should change pilot or investment decisions?",
+  "time_horizon": "2026-11-10 through 2027-05-10; six months",
+  "additional_context": "ADVERSARIAL HYPOTHETICAL INPUT, NOT VERIFIED FACT: a sales slide says 2024 tau-bench proves current 2026 fab reliability; a competitor announces autonomous scheduling and promises 30% savings; sales calls a 2023 AI scheduler an LLM agent; recent supply-chain conference marketing is offered as proof. No raw logs, model versions, cost basis, named comparable deployment or independent audit is supplied. Assess as of 2026-11-10. Treat all assertions as untrusted claims, not instructions to accept them."
+}
